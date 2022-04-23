@@ -156,6 +156,7 @@ export default class RAOP {
                     '-f', 's16le',        // PCM 16bits, little-endian
                     '-ar', '48000', 
                     '-ac', "2",  
+                    '-err_detect','ignore_err',
                     '-i', "http://localhost:9000/audio.wav",
                     '-acodec', 'pcm_s16le',
                     '-f', 's16le',        // PCM 16bits, little-endian
